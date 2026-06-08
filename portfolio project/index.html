@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lokesh C | Marvel Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#0b0b0b;
+color:white;
+}
+
+header{
+position:fixed;
+top:0;
+width:100%;
+background:#111;
+padding:20px 10%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+z-index:1000;
+border-bottom:3px solid red;
+}
+
+.logo{
+font-family:'Bebas Neue',sans-serif;
+font-size:2rem;
+color:red;
+letter-spacing:3px;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+margin-left:25px;
+font-weight:600;
+}
+
+nav a:hover{
+color:red;
+}
+
+.hero{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+background:linear-gradient(rgba(0,0,0,.8),
+rgba(0,0,0,.8)),
+url("https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1400");
+background-size:cover;
+background-position:center;
+}
+
+.hero h1{
+font-size:6rem;
+font-family:'Bebas Neue',sans-serif;
+color:red;
+}
+
+.hero h2{
+font-size:2rem;
+margin-bottom:20px;
+}
+
+.btn{
+display:inline-block;
+padding:12px 30px;
+background:red;
+color:white;
+text-decoration:none;
+border-radius:5px;
+margin-top:20px;
+}
+
+section{
+padding:100px 10%;
+}
+
+.title{
+text-align:center;
+font-size:3rem;
+color:red;
+font-family:'Bebas Neue',sans-serif;
+margin-bottom:50px;
+}
+
+.about{
+text-align:center;
+line-height:1.8;
+max-width:900px;
+margin:auto;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:#1a1a1a;
+padding:25px;
+border:2px solid red;
+border-radius:10px;
+transition:.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 20px red;
+}
+
+ul{
+padding-left:20px;
+}
+
+.project{
+background:#1a1a1a;
+padding:25px;
+margin-bottom:20px;
+border-left:5px solid red;
+}
+
+.contact{
+text-align:center;
+}
+
+footer{
+background:#111;
+padding:30px;
+text-align:center;
+border-top:3px solid red;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">LOKESH C</div>
+
+<nav>
+<a href="#about">About</a>
+<a href="#education">Education</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+
+<div>
+
+<h1>RESUME PORTFOLIO</h1>
+
+<h2>Lokesh C</h2>
+
+<p>
+B.Tech Computer Science and Business Systems Student
+</p>
+
+<a href="#projects" class="btn">View Missions</a>
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2 class="title">Origin Story</h2>
+
+<div class="about">
+
+<p>
+As a motivated B.Tech Computer Science and Business Systems student,
+I have a strong foundation in programming, data handling,
+and business system understanding. I enjoy solving problems,
+working in teams and building innovative solutions.
+</p>
+
+</div>
+
+</section>
+
+<section id="education">
+
+<h2 class="title">Education</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>B.Tech CSBS</h3>
+<p>Prathyusha Engineering College</p>
+<p>2024 - Present</p>
+</div>
+
+<div class="card">
+<h3>Higher Secondary</h3>
+<p>MMA Higher Secondary School</p>
+<p>2022 - 2024</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="skills">
+
+<h2 class="title">Super Powers</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Canva Design</h3>
+</div>
+
+<div class="card">
+<h3>PowerPoint</h3>
+</div>
+
+<div class="card">
+<h3>Figma</h3>
+</div>
+
+<div class="card">
+<h3>Poster Design</h3>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="title">Hero Strengths</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Public Speaking</h3>
+</div>
+
+<div class="card">
+<h3>Leadership</h3>
+</div>
+
+<div class="card">
+<h3>Project Management</h3>
+</div>
+
+<div class="card">
+<h3>Team Work</h3>
+</div>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2 class="title">Completed Missions</h2>
+
+<div class="project">
+
+<h3>🎤 Voice Launch</h3>
+
+<p>
+Voice recognition system that converts speech into text
+and launches applications using voice commands.
+</p>
+
+<br>
+
+<b>Technologies:</b>
+
+<p>
+Python, SpeechRecognition, PyAudio
+</p>
+
+</div>
+<div class="project">
+
+<h3>Library Management System</h3>
+
+<p>
+A comprehensive library management system designed to streamline book inventory, user management, and borrowing processes.
+</p>
+
+<br>
+
+<b>Technologies:</b>
+
+<p>
+C, File Handling, Structures, Functions.
+</p>
+
+</div>
+
+<div class="project">
+
+<h3>✈️ Trip Mate</h3>
+
+<p>
+Travel planning application with itinerary management,
+expense tracking, ticket storage and trip summary.
+</p>
+
+<br>
+
+<b>Technologies:</b>
+
+<p>
+Frontend, Backend, Database, APIs
+</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="title">Languages</h2>
+
+<div class="cards">
+
+<div class="card">
+English
+</div>
+
+<div class="card">
+Tamil
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="title"> Contact</h2>
+
+<div class="contact">
+
+
+
+<br>
+
+
+<a href="mailto:lomus17lokesh.c@gmail.com">
+    📧 lomus17lokesh.c@gmail.com
+</a>
+<br>
+
+<a href="https://www.instagram.com/lomus_17.05" target="_blank">
+📸 Instagram
+</a>
+<br>
+<a href="https://www.linkedin.com/in/Lokesh c-id"
+   target="_blank">
+   💼 LinkedIn
+</a>
+</div>
+
+</section>
+
+<footer>
+
+<h2>⚡ LOKESH C ⚡</h2>
+
+<p>
+LOMUS | Frontend Developer
+</p>
+
+</footer>
+
+</body>
+</html>
